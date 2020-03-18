@@ -4,6 +4,7 @@ body {
   font-weight: 100;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
+  margin: 0 auto;
 }
 h1 {
   color: rgb(50, 50, 50);
@@ -16,4 +17,54 @@ p {
 a:hover {
   font-weight: bolder;
   background-color: rgb(235, 235, 235);
+}
+.container {
+  background-color: rgb(231, 230, 230);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.btn {
+  background-color: rgba(224, 224, 224, 0.945);
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.social-media-list {
+  list-style: none;
+  border: 1px solid lightgrey;
+  padding-left: 0px;
+}
+
+.li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#profilepic {
+  border-radius: 50%;
+}
+.intro {
+  border: 1px solid lightgrey;
+  padding: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
