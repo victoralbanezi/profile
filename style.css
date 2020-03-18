@@ -27,23 +27,21 @@ a:hover {
   text-align: center;
 }
 .btn {
-  background-color: rgba(224, 224, 224, 0.945);
+  background-color: rgba(155, 155, 155, 0.5);
   padding: 15px 20px;
   border-radius: 4px;
 }
-.social-media-list {
-  list-style: none;
-  border: 1px solid lightgrey;
-  padding-left: 0px;
-}
-
-.li {
+.social-media-list > li {
   display: inline-block;
-  padding: 10px;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 #profilepic {
   border-radius: 50%;
+  border-width: 50px;
+  border-color: black;
 }
 .intro {
   border: 1px solid lightgrey;
