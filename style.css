@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Rubik&display=swap");
+body {
+  background-color: rgb(235, 235, 235);
+  font-weight: 100;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+h1 {
+  color: rgb(50, 50, 50);
+  font-family: "Oswald", sans-serif;
+}
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+a:hover {
+  font-weight: bolder;
+  background-color: rgb(235, 235, 235);
+}
