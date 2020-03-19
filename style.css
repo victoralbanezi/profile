@@ -36,9 +36,10 @@ a:hover {
   padding: 0px 20px;
   list-style: none;
   padding-left: 0px;
-  background-color: red;
 }
-
+ul {
+  padding-left: 0px;
+}
 #profilepic {
   border-radius: 50%;
   border-width: 50px;
