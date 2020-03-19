@@ -35,9 +35,11 @@ a:hover {
   display: inline-block;
   padding: 0px 20px;
   list-style: none;
+  padding-bottom: 10px;
 }
 ul {
   padding-left: 0px;
+  border: 5px solid lightgrey;
 }
 #profilepic {
   border-radius: 50%;
@@ -45,7 +47,7 @@ ul {
   border-color: black;
 }
 .intro {
-  border: 1px solid lightgrey;
+  border: 5px solid lightgrey;
   padding: 40px;
 }
 
